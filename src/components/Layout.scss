@@ -1,0 +1,20 @@
+@import '../index.scss';
+
+.Subsection {
+	width: 45%;
+	flex-grow: 0;
+}
+
+@include media-breakpoint-down(lg) {
+	.Subsection {
+		width: 100%;
+		flex-grow: 1;
+	}
+}
+
+.Section {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap: 2em;
+}
