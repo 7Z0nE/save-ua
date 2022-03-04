@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
 
-import { data } from '../content/dontaions';
+import { data } from '../content/donations';
 
 const Section = (props) => (<Row className="mt-5"><Col>
 	<h1>{props.title}</h1>
