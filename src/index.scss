@@ -1,0 +1,27 @@
+
+/* COLORS
+primary
+secondary
+success
+danger
+warning
+info
+light
+dark
+muted
+white
+*/
+$ukrainian-blue: #0060DE;
+$ukrainian-yellow: #FCD10D;
+$light-color: #E5E5E5;
+$dark-color: #262626;
+
+$theme-colors: (
+  "primary": $ukrainian-blue,
+  "secondary": $ukrainian-yellow,
+  "dark": $dark-color,
+  "light": $light-color
+) !default;
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/_utilities";

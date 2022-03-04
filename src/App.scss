@@ -1,0 +1,11 @@
+$header-height: 70px;
+
+.Header {
+  height: $header-height;
+  background-color: white;
+}
+
+.Content {
+  min-height: calc(100vh - $header-height);
+  max-width: 1200;
+}
