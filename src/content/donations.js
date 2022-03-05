@@ -192,7 +192,7 @@ export const data = [
 				content: (
 					<>
 						<p>
-							<span style="text-decoration: underline;">
+							<span>
 								<strong>
 									<a href="https://markobook.com/knigarnya/med-front/" target="_blank" rel="noopener noreferrer">
 										<span>AID & Medicaments </span>
@@ -214,7 +214,7 @@ export const data = [
 				content: (
 					<>
 						<p>
-							<span style="text-decoration: underline;">
+							<span>
 								<strong>
 									<a href="https://redcross.org.ua/en/donate/" target="_blank" rel="noopener noreferrer">
 										<span>Donation via website</span>
@@ -223,7 +223,7 @@ export const data = [
 							</span>
 						</p>
 						<p>
-							<span style="text-decoration: underline;">
+							<span>
 								<strong>
 									<a
 										href="https://donate.redcrossredcrescent.org/ua/donate/~my-donation?_cv=1&amp;ns_ira_cr_arg=IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyPdfo1VIVJ%2FpZD9AR%2FKX%2F3rHSedNyCLqqggLX9JI3YCxxHcdrK8UkzvUeEB7%2BXvyzotVDFUMj5hliUTfXP8rDSg8d6%2Bu3HLBlW6%2BsOASk4xntWRMY8aRFODAo3qiRdkNZY%3D"
@@ -330,7 +330,7 @@ export const data = [
 				content: (
 					<>
 						<p>
-							<span style="text-decoration: underline;">
+							<span>
 								<strong>
 									<a href="https://www.plast.org.ua/donate/" target="_blank" rel="noopener noreferrer">
 										<span>PayPal</span>
@@ -339,7 +339,7 @@ export const data = [
 							</span>
 						</p>
 						<p>
-							<span style="text-decoration: underline;">
+							<span>
 								<strong>
 									<a
 										href="https://www.plast.org.ua/rekvizyty-fond-viysko/?fbclid=IwAR2NTO5NiorQJqL6G757ZS-8k71kszSco8MESnK-gD0T9yZVfA0dcKP1NAo"
@@ -362,7 +362,7 @@ export const data = [
 				content: (
 					<>
 						<p>
-							<span style="text-decoration: underline;">
+							<span>
 								<strong>
 									<a
 										href="https://kse.ua/donation/?fbclid=IwAR2qdZCWyilBmXfTz7YYyVKFR7CEppG6II5cPsmhlr7QCnjIIfGkOaMcVh0"
@@ -385,7 +385,7 @@ export const data = [
 				content: (
 					<>
 						<p>
-							<span style="text-decoration: underline;">
+							<span>
 								<strong>
 									<a
 										href="https://help.rescue.org/donate-ca/ukraine-crisis?ms=fb_ppc_fy22_ukraine_nm_feb&amp;initialms=fb_ppc_fy22_ukraine_nm_feb&amp;utm_medium=display&amp;utm_source=facebook&amp;utm_campaign=fy22_ukraine&amp;utm_content=globaloutlookigstory&amp;fbclid=PAAaYd1zYx0qMfXfDok05p7lQrLPnvvcU05360D_uFoiOVjkF6Ru7Hi4aEzRE&amp;external_browser_redirect=true"
@@ -422,7 +422,7 @@ export const data = [
 					<>
 						<p>
 							<strong>
-								<span style="text-decoration: underline;">
+								<span>
 									<a href="https://leleka.care/donate/" target="_blank" rel="noopener noreferrer">
 										<span>Donate</span>
 									</a>
@@ -459,7 +459,7 @@ export const data = [
 				content: (
 					<>
 						<p>
-							<span style="text-decoration: underline;">
+							<span>
 								<strong>
 									<a href="https://www.liqpay.ua/checkout/i92692777102">Donations around the world</a>
 								</strong>
@@ -509,7 +509,7 @@ export const data = [
 				content: (
 					<>
 						<p>
-							<span style="text-decoration: underline;">
+							<span>
 								<strong>
 									<a href="https://bloodagents.com/" target="_blank" rel="noopener noreferrer">
 										<span>join as a donor (only in Ukraine)</span>
@@ -523,76 +523,76 @@ export const data = [
 		],
 	},
 	{
-		title: 'Buy & Send Equipment',
-		description: (<>
-			Our brave heroes desperately fight and protect their homeland. But they urgently need additional equipment. You can help us if you are abroad. It’s a significant contribution to the victory of the Ukrainian army
-
-			List of necessities
-			<ul>
-				<li>Pulsar 38 or 50 thermal imaging scopes</li>
-				<li>Motorola car radios, Hytera walkie-talkies</li>
-				<li>Body armors 3-5 protection class</li>
-				<li>Helmets</li>
-				<li>Military first aid kits (these include combat application tourniquets, scissors, hemostatic, etc.)</li>
-				<li>Very urgent need for medical tourniquets</li>
-				<li>Night vision devices</li>
-			</ul>
-		</>),
+		title: "Buy & Send Equipment",
+		description: (
+			<>
+				Our brave heroes desperately fight and protect their homeland. But they urgently need additional equipment. You can help us if you are abroad. It’s a
+				significant contribution to the victory of the Ukrainian army List of necessities
+				<ul>
+					<li>Pulsar 38 or 50 thermal imaging scopes</li>
+					<li>Motorola car radios, Hytera walkie-talkies</li>
+					<li>Body armors 3-5 protection class</li>
+					<li>Helmets</li>
+					<li>Military first aid kits (these include combat application tourniquets, scissors, hemostatic, etc.)</li>
+					<li>Very urgent need for medical tourniquets</li>
+					<li>Night vision devices</li>
+				</ul>
+			</>
+		),
 		subsections: [
 			{
-				title: 'Algorithm of actions (Version 1)',
-				description: (<ol>
-					<li>Find a company/store in your country that sells thermal imaging scopes, body armor, helmets, communications equipment, or first aid kits.</li>
-
-					<li>Find out the quantity available and their price.</li>
-
-					<li>Make sure the company/store is ready to sell them to you.</li>
-
-					<li>Call +380683596380 and confirm the quantity of goods and the need to purchase them.</li>
-
-					<li>If the Fund has confirmed your application, take an invoice from the company/store and transfer it to the “Come back alive” fund.</li>
-
-					<li>We pay the bill, and you pick up the goods and deliver them to the warehouse of our partners in Poland or to the checkpoint “Shehyni” on the Polish-Ukrainian border.</li>
-
-					<li>Done! You became a volunteer of the Foundation and contributed to the victory in the war with the occupier.
-						Each of your contributions influences the course of history.</li>
-				</ol>)
-			},
-			{
-				title: 'Algorithm of actions (Version 2) (from Serhiy Prytula)',
-				description: (<>
-					<h4>FOR THOS WHO SEND AID BY AIR</h4>
+				title: "Algorithm of actions (Version 1)",
+				description: (
 					<ol>
-						<li>You can cross the border yourself. Fine! If you already have an understanding of where you are going to help – this is even better!
-							If you do not know how to get this help and who to deliver, then you bring your trucks / buses to Lviv
+						<li>Find a company/store in your country that sells thermal imaging scopes, body armor, helmets, communications equipment, or first aid kits.</li>
 
-							Coordinators in Lviv:
-							RC Lviv Horodotska, 359
-							+38 098 979 06 36 Novel
-							+38 050 315 5000 Igor</li>
+						<li>Find out the quantity available and their price.</li>
+
+						<li>Make sure the company/store is ready to sell them to you.</li>
+
+						<li>Call +380683596380 and confirm the quantity of goods and the need to purchase them.</li>
+
+						<li>If the Fund has confirmed your application, take an invoice from the company/store and transfer it to the “Come back alive” fund.</li>
+
 						<li>
-							Can’t cross the border? No problem! There are 2 groups:
-							<ul>
-								A) Those who carry EXCLUSIVELY MILITARY EQUIPMENT AND TECHNICAL EQUIPMENT: ammunition, bulletproof vests, helmets, night vision devices, thermal imagers, drones, walkie-talkies, uniforms, etc.
-								You go to our logistics centre in Przemyśl. WE DO NOT EAT FOOD AND OTHER THINGS NOT FOR THOSE WHO ARE NOW DEFENDING UKRAINE! Only what is indicated! That directly for the warriors!
-								Ada Haszczyn
-								+48785742135
-								Stefana Batorego 1,
-								37-700 Przemyśl
-								NTUAPL@GMAIL.COM
-								You can also send parcels with military cargo here.
+							We pay the bill, and you pick up the goods and deliver them to the warehouse of our partners in Poland or to the checkpoint “Shehyni” on the
+							Polish-Ukrainian border.
+						</li>
 
-
-							</ul>
-							<ul>
-								B) Those who carry the humanities and medicine – you have other logistics centres available, which are indicated below.
-							</ul>
+						<li>
+							Done! You became a volunteer of the Foundation and contributed to the victory in the war with the occupier. Each of your contributions influences
+							the course of history.
 						</li>
 					</ol>
-				</>),
+				),
+			},
+			{
+				title: "Algorithm of actions (Version 2) (from Serhiy Prytula)",
+				description: (
+					<>
+						<h4>FOR THOS WHO SEND AID BY AIR</h4>
+						<ol>
+							<li>
+								You can cross the border yourself. Fine! If you already have an understanding of where you are going to help – this is even better! If you do
+								not know how to get this help and who to deliver, then you bring your trucks / buses to Lviv Coordinators in Lviv: RC Lviv Horodotska, 359 +38
+								098 979 06 36 Novel +38 050 315 5000 Igor
+							</li>
+							<li>
+								Can’t cross the border? No problem! There are 2 groups:
+								<ul>
+									A) Those who carry EXCLUSIVELY MILITARY EQUIPMENT AND TECHNICAL EQUIPMENT: ammunition, bulletproof vests, helmets, night vision devices,
+									thermal imagers, drones, walkie-talkies, uniforms, etc. You go to our logistics centre in Przemyśl. WE DO NOT EAT FOOD AND OTHER THINGS NOT
+									FOR THOSE WHO ARE NOW DEFENDING UKRAINE! Only what is indicated! That directly for the warriors! Ada Haszczyn +48785742135 Stefana Batorego 1,
+									37-700 Przemyśl NTUAPL@GMAIL.COM You can also send parcels with military cargo here.
+								</ul>
+								<ul>B) Those who carry the humanities and medicine – you have other logistics centres available, which are indicated below.</ul>
+							</li>
+						</ol>
+					</>
+				),
 				expandableSubsections: [
 					{
-						title: 'Logistics centers',
+						title: "Logistics centers",
 						content: `
 						PPHU HUSAR
 						UL.SOBIESKIEGO 14
@@ -614,9 +614,9 @@ export const data = [
 						0678961338 From there all this will be transported to Lviv and there in the logistics centre we conduct sorting and further logistics in the necessary directions.
 						I also ask everyone who has a vehicle suitable for the transportation of various goods to come to Lviv at the address: Lviv, st. Horodotska, 359, or call the number to register in the register of carriers that will run in the necessary directions – +38 098 979 06 36 (Roman), +38 050 315 5000 (Igor)
 						`,
-					}
-				]
-			}
-		]
-	}
+					},
+				],
+			},
+		],
+	},
 ];

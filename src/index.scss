@@ -16,6 +16,8 @@ $ukrainian-yellow: #FCD10D;
 $light-color: #E5E5E5;
 $dark-color: #262626;
 
+$font-family-base: "Roboto";
+
 $theme-colors: (
   "primary": $ukrainian-blue,
   "secondary": $ukrainian-yellow,
@@ -25,3 +27,4 @@ $theme-colors: (
 
 @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap/scss/_utilities";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap";
