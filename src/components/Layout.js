@@ -36,7 +36,7 @@ export const Expandables = (props) => {
 	if (props.subsections?.length === 0) return null;
 	return (
 		<Accordion className="mb-4" alwaysOpen={true}>
-			{props.sections.map((s, i) => <Accordion.Item eventKey={"" + i}>
+			{props?.sections?.map((s, i) => <Accordion.Item eventKey={"" + i}>
 				<Accordion.Header>{s.title}</Accordion.Header>
 				<Accordion.Body>{s.content}</Accordion.Body>
 			</Accordion.Item>)}
