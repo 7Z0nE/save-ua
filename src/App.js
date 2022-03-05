@@ -55,7 +55,7 @@ const Content = () => {
 	useEffect(() => {
 		console.log("location");
 	}, [location]);
-  
+
 	return (
 		<Container fluid="true" className="Content">
 			<Routes>
@@ -90,39 +90,35 @@ const Footer = () => (
 							</a>
 						</Col>
 						<Col>
-							<a className="text-light nodeco" href="#/faq">
-								FAQ
+							<a className="text-light nodeco" href="https://www.facebook.com/dosaveukraine" target="_blank" rel="nofollow noopener noreferrer external">
+								Facebook
 							</a>
 						</Col>
 					</Row>
 					<Row>
+						<Col>
+							<a className="text-light nodeco" href="#/channels">
+								Telegram Channels
+							</a>
+						</Col>
 						<Col>
 							<a className="text-light nodeco" href="#/donations">
 								Donations
 							</a>
 						</Col>
 						<Col>
-							<a className="text-light nodeco" href="#/crimes">
-								War Crimes
-							</a>
-						</Col>
-						<Col>
-							<a className="text-light nodeco" href="#/channels">
-								Telegram Channels
+							<a className="text-light nodeco" href="https://www.linkedin.com/company/do-save-ukraine/" target="_blank" rel="nofollow noopener noreferrer external">
+								LinkedIn
 							</a>
 						</Col>
 					</Row>
 					<Row>
 						<Col>
-							<a className="text-light nodeco" href="#/petitions">
-								Petitions
+							<a className="text-light nodeco" href="#/join">
+								Join IT Army
 							</a>
 						</Col>
-						<Col>
-							<a className="text-light nodeco" href="#/contact">
-								Contact For Inquiries
-							</a>
-						</Col>
+						<Col></Col>
 						<Col></Col>
 					</Row>
 				</Col>

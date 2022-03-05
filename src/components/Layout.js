@@ -7,7 +7,7 @@ import "./Layout.scss";
 export const Section = ({ children, title, className, style, ...props }) => (
 	<Row className={classNames("mt-5", className)}>
 		<Col>
-			<h2 className="text-center mb-5">{title}</h2>
+			{title ? <h2 className="text-center mb-5">{title}</h2> : null}
 			<div className="Section" style={style}>
 				{children}
 			</div>
@@ -15,10 +15,14 @@ export const Section = ({ children, title, className, style, ...props }) => (
 	</Row>
 );
 
-export const LinkButton = (props) => (
-	<a href={props.link} className="m-2 px-3 btn btn-primary fw-bold">
-		{props.title}
+export const LinkButton = ({ children, link, ...props }) => (
+	<a href={link} style={{ minWidth: "200px" }} className="text-center fw-bold m-2 px-4 py-2 btn btn-secondary" {...props}>
+		{children}
 	</a>
+);
+
+export const ExternalLinkButton = ({ title, link, children, ...props }) => (
+	<LinkButton target="_blank" rel="nofollow noopener noreferrer external" link={link} {...props}>{children}</LinkButton>
 );
 
 export const Subsection = (props) => {

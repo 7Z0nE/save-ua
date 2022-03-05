@@ -9,10 +9,42 @@
 	background-position: center;
 }
 
-
 .ml {
-	margin-left: 20px;
+	margin-left: 12px;
 }
+
+@include media-breakpoint-down(sm) {
+	.ml {
+		margin-left: 36px;
+	}
+}
+
+@include media-breakpoint-only(sm) {
+	.ml {
+		margin-left: 50px;
+	}
+}
+@include media-breakpoint-only(md) {
+	.ml {
+		margin-left: calc((100vw - 678px) / 2);
+	}
+}
+@include media-breakpoint-only(lg) {
+	.ml {
+		margin-left: calc((100vw - 960px) / 2);
+	}
+}
+@include media-breakpoint-only(xl) {
+	.ml {
+		margin-left: calc((100vw - 1114px) / 2);
+	}
+}
+@include media-breakpoint-up(xxl) {
+	.ml {
+		margin-left: calc((100vw - 1320px) / 2);
+	}
+}
+
 
 .BannerText {
 	font-size: 70px;
@@ -24,7 +56,7 @@
 }
 
 .BannerSave {
-	margin-top: 3rem !important;
+	margin-top: 5rem !important;
 }
 
 .BannerLeft {
@@ -34,6 +66,7 @@
 .BannerUkraine {
 	margin-bottom: 3rem;
 	text-shadow: 5px 5px $dark;
+	margin-right: 20px;
 }
 
 .BannerTextUkraine {
@@ -41,10 +74,6 @@
 }
 
 @include media-breakpoint-up(sm) {
-	.ml {
-		margin-left: 50px;
-	}
-	
 	.BannerText {
 		font-size: 80px;
 		line-height: 100px;
@@ -56,10 +85,6 @@
 	.BannerText {
 		font-size: 110px;
 		line-height: 129px;
-	}
-
-	.ml {
-		margin-left: 100px;
 	}
 
 	.BannerLeft {
@@ -74,12 +99,6 @@
 	}
 	.BannerTextUkraine {
 		box-shadow: none;
-	}
-}
-
-@include media-breakpoint-up(xl) {
-	.ml {
-		margin-left: 200px;
 	}
 }
 
