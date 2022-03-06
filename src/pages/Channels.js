@@ -9,12 +9,12 @@ const Channels = () => (
 		<Container className="pb-5">
 			<Section title="Telegram Channels" style={{ gap: "0" }}>
 				{data.telegram.map((c, i) => (
-					<LinkButton key={i} {...c} />
+					<LinkButton key={i} link={c.link}>{c.title}</LinkButton>
 				))}
 			</Section>
 			<Section title="Twitter Channels" style={{ gap: "0" }}>
 				{data.twitter.map((c, i) => (
-					<LinkButton key={i} {...c} />
+					<LinkButton key={i} link={c.link}>{c.title}</LinkButton>
 				))}
 			</Section>
 		</Container>
