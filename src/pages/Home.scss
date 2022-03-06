@@ -7,23 +7,20 @@
 }
 
 .ml {
-	margin-left: 12px;
+	margin-left: 46px;
+	margin-right: 46px;
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-up(sm) {
 	.ml {
-		margin-left: 36px;
+		margin-left: calc((100vw - 540px) / 2);
+		margin-right: calc((100vw - 540px) / 2);
 	}
 }
-
-@include media-breakpoint-only(sm) {
-	.ml {
-		margin-left: 50px;
-	}
-}
-@include media-breakpoint-only(md) {
+@include media-breakpoint-up(md) {
 	.ml {
 		margin-left: calc((100vw - 678px) / 2);
+		margin-right: calc((100vw - 678px) / 2);
 	}
 }
 @include media-breakpoint-only(lg) {
@@ -65,19 +62,19 @@
 	box-shadow: 0 0 10px 10px $black;
 }
 
-@include media-breakpoint-up(sm) {
-	.BannerText {
-		font-size: 80px;
-		line-height: 100px;
-	}
+.BannerText {
+	font-size: 75px;
+	line-height: 90px;
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(sm) {
 	.BannerText {
 		font-size: 110px;
 		line-height: 129px;
 	}
+}
 
+@include media-breakpoint-up(lg) {
 	.BannerLeft {
 		background-color: $dark;
 	}
@@ -93,7 +90,7 @@
 	}
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(lg) {
 	.BannerContent {
 		background-color: $dark;
 	}
@@ -101,18 +98,18 @@
 		padding: 0;
 	}
 
-	.BannerTextRow {
-		margin: 0;
-	}
+	// .BannerTextRow {
+	// 	margin: 0;
+	// }
 
 	.BannerText {
-		margin: 0;
-		padding-left: 16px;
+		// margin: 0;
+		// padding-left: 16px;
 	}
 
 	.BannerTextDescription {
-		margin: 0;
-		padding: 0 16px;
+		// margin: 0;
+		// padding: 0 16px;
 	}
 
 	.BannerSaveRow {
@@ -122,16 +119,16 @@
 	}
 
 	.BannerSave .BannerText {
-		margin: 0;
-		padding-left: 32px;
+		// margin: 0;
+		// padding-left: 32px;
 	}
 
 	.BannerUkraine {
-		margin: 0;
+		// margin: 0;
 		background: $dark-color;
 		.BannerText {
-			margin: 0;
-			padding-left: 24px;
+			// margin: 0;
+			// padding-left: 24px;
 		}
 	}
 }

@@ -44,7 +44,7 @@ const Home = () => {
 	return (
 		<>
 			<Row className="ProtestImage mb-5">
-				<Col className="BannerLeft order-2 order-md-1 position-relative" md={6} sm={12}>
+				<Col className="BannerLeft order-2 order-lg-1 position-relative" xl={6} lg={7} md={12}>
 					<Row className="BannerSaveRow">
 						<Col className="BannerSave ps-1 bg-primary">
 							<h1 className="BannerText text-white ml">SAVE</h1>
@@ -75,7 +75,7 @@ const Home = () => {
 						</Row>
 					</div>
 				</Col>
-				<Col className="BannerRight order-1 order-md-2 p-0" md={6} sm={12}>
+				<Col className="BannerRight order-1 order-lg-2 p-0" md={12} lg={5} xl={6} >
 					<img className="ProtestImg" src={ProtestImage} alt="Protest against Russia" />
 				</Col>
 			</Row>
