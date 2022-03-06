@@ -1,12 +1,17 @@
 $header-height: 70px;
 
+html,
+body {
+	overflow-x: hidden;
+}
+
 .Header {
-  height: $header-height;
-  background-color: white;
+	height: $header-height;
+	background-color: white;
 }
 
 .Content {
-  min-height: calc(100vh - $header-height);
-  max-width: 1200;
-  padding-bottom: 5rem;
+	min-height: calc(100vh - $header-height);
+	max-width: 1200;
+	padding-bottom: 5rem;
 }

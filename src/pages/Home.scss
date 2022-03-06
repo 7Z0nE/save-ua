@@ -1,12 +1,9 @@
 @import "../index.scss";
 
-.ProtestImage {
-	background-image: url(/images/protest.jpeg);
-	height: 70%;
-	min-height: 500px;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center;
+.ProtestImg {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .ml {
@@ -45,7 +42,6 @@
 	}
 }
 
-
 .BannerText {
 	font-size: 70px;
 	font-style: normal;
@@ -55,12 +51,8 @@
 	text-align: left;
 }
 
-.BannerSave {
-	margin-top: 5rem !important;
-}
-
 .BannerLeft {
-	background-color: none;
+	background-color: transparent;
 }
 
 .BannerUkraine {
@@ -80,7 +72,6 @@
 	}
 }
 
-
 @include media-breakpoint-up(md) {
 	.BannerText {
 		font-size: 110px;
@@ -99,6 +90,49 @@
 	}
 	.BannerTextUkraine {
 		box-shadow: none;
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.BannerContent {
+		background-color: $dark;
+	}
+	.BannerLeft {
+		padding: 0;
+	}
+
+	.BannerTextRow {
+		margin: 0;
+	}
+
+	.BannerText {
+		margin: 0;
+		padding-left: 16px;
+	}
+
+	.BannerTextDescription {
+		margin: 0;
+		padding: 0 16px;
+	}
+
+	.BannerSaveRow {
+		position: absolute;
+		top: 0;
+		transform: translate(0, -100%);
+	}
+
+	.BannerSave .BannerText {
+		margin: 0;
+		padding-left: 32px;
+	}
+
+	.BannerUkraine {
+		margin: 0;
+		background: $dark-color;
+		.BannerText {
+			margin: 0;
+			padding-left: 24px;
+		}
 	}
 }
 

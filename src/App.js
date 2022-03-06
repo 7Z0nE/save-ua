@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Row from "react-bootstrap/Row";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Channels from "./pages/Channels";
 import Contact from "./pages/Contact";
@@ -14,7 +14,6 @@ import JoinITArmy from "./pages/JoinITArmy";
 import Petitions from "./pages/Petitions";
 import Volunteering from "./pages/Volunteering";
 import WarCrimes from "./pages/WarCrimes";
-import { useEffect } from "react";
 
 const Header = () => (
 	<Navbar className="Header" sticky="top" collapseOnSelect expand="md">
@@ -50,11 +49,6 @@ const Header = () => (
 );
 
 const Content = () => {
-	const location = useLocation();
-
-	useEffect(() => {
-		console.log("location");
-	}, [location]);
 
 	return (
 		<Container fluid="true" className="Content">

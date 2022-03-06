@@ -22,7 +22,7 @@ $theme-colors: (
   "primary": $ukrainian-blue,
   "secondary": $ukrainian-yellow,
   "dark": $dark-color,
-  "light": $light-color
+  "light": $light-color,
 ) !default;
 
 @import "~bootstrap/scss/bootstrap";
