@@ -26,16 +26,19 @@
 @include media-breakpoint-only(lg) {
 	.ml {
 		margin-left: calc((100vw - 960px) / 2);
+		margin-right: 0;
 	}
 }
 @include media-breakpoint-only(xl) {
 	.ml {
 		margin-left: calc((100vw - 1114px) / 2);
+		margin-right: 0;
 	}
 }
 @include media-breakpoint-up(xxl) {
 	.ml {
 		margin-left: calc((100vw - 1320px) / 2);
+		margin-right: 0;
 	}
 }
 
@@ -52,14 +55,17 @@
 	background-color: transparent;
 }
 
+.BannerTextSave {
+	margin-right: 0 !important;
+}
+
 .BannerUkraine {
 	margin-bottom: 3rem;
-	text-shadow: 5px 5px $dark;
 	margin-right: 20px;
 }
 
 .BannerTextUkraine {
-	box-shadow: 0 0 10px 10px $black;
+	text-shadow: 5px 5px $dark;
 }
 
 .BannerText {
@@ -98,38 +104,14 @@
 		padding: 0;
 	}
 
-	// .BannerTextRow {
-	// 	margin: 0;
-	// }
-
-	.BannerText {
-		// margin: 0;
-		// padding-left: 16px;
-	}
-
-	.BannerTextDescription {
-		// margin: 0;
-		// padding: 0 16px;
-	}
-
 	.BannerSaveRow {
 		position: absolute;
 		top: 0;
 		transform: translate(0, -100%);
 	}
 
-	.BannerSave .BannerText {
-		// margin: 0;
-		// padding-left: 32px;
-	}
-
 	.BannerUkraine {
-		// margin: 0;
 		background: $dark-color;
-		.BannerText {
-			// margin: 0;
-			// padding-left: 24px;
-		}
 	}
 }
 

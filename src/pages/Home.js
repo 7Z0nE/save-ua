@@ -47,14 +47,14 @@ const Home = () => {
 				<Col className="BannerLeft order-2 order-lg-1 position-relative" xl={6} lg={7} md={12}>
 					<Row className="BannerSaveRow">
 						<Col className="BannerSave ps-1 bg-primary">
-							<h1 className="BannerText text-white ml">SAVE</h1>
+							<h1 className="BannerText BannerTextSave text-white ml">SAVE</h1>
 						</Col>
 						<Col style={{ flexGrow: 1 }}></Col>
 					</Row>
 					<div className="BannerContent">
 						<Row>
 							<Col className="BannerUkraine">
-								<h1 className="BannerText text-secondary ml">UKRAINE</h1>
+								<h1 className="BannerText BannerTextUkraine text-secondary ml">UKRAINE</h1>
 							</Col>
 							<Col></Col>
 						</Row>
